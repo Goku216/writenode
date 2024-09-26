@@ -1,7 +1,7 @@
-import { addDoc, collection } from "firebase/firestore";
-import { db, auth } from "../firebase/config";
 import { useNavigate } from "react-router-dom";
 import { useTitle } from "../hooks/useTitle";
+import { addDoc, collection } from "firebase/firestore";
+import { db, auth } from "../firebase/config";
 
 export const CreatePost = () => {
   const navigate = useNavigate();
